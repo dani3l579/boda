@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+  flex-direction: column; /* apila input + botón en columna */
+  align-items: center; /* centra horizontal */
+  gap: 1rem; /* espacio entre input y botón */
+  margin-top: 2rem; /* espacio superior para separar del título o demás elementos */
+}
+
+.form input {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border: 2px solid #a3b18a;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form input:focus {
+  border-color: #588157;
+}
+
+.form button {
+  position: relative;
+  display: flex;
+  padding: 1.8rem 2rem 1.8rem 4rem;
+  font-size: 1rem;
+  background-color: #588157; /* verde oliva */
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 1;
+  text-align: center;
+  justify-content: space-evenly;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.172);
+}
+.image {
+  position: absolute;
+  top: 0px;
+  left: -9px;
+}
+.image2 {
+  position: absolute;
+  top: 0px;
+  right: -25px;
+}
+
+.form button:hover {
+  background-color: #476344; /* un verde más oscuro al hacer hover */
+}
