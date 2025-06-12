@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Countdown from "../../components/Countdown";
+import Countdown from "../../components/CountDown";
 
 export default function SuccessPage() {
   const [guestName, setGuestName] = useState("");
