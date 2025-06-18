@@ -1,0 +1,82 @@
+.section {
+  background-color: var(--green-ligth);
+  width: 100%;
+  height: auto;
+  padding: 90px 0 30px 0;
+  position: relative;
+}
+.image {
+  position: absolute;
+  top: -15px;
+  left: -12px;
+  transform: rotate(-25deg);
+
+  animation: brilloSuave 2s ease-in-out infinite;
+  transform-origin: center;
+}
+.image2 {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  transform: rotate(25deg);
+  animation: brilloSuave 2s ease-in-out infinite;
+  transform-origin: center;
+}
+@keyframes brilloSuave {
+  0%,
+  100% {
+    filter: brightness(1);
+    opacity: 0.9;
+  }
+  50% {
+    filter: brightness(1.2);
+    opacity: 1;
+  }
+}
+.title {
+  font-family: "'Times New Roman', Times, serif";
+  font-size: 2.8rem;
+  text-align: center;
+  color: var(--main-green);
+}
+.h3 {
+  font-family: "'Times New Roman', Times, serif";
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-top: 5px;
+  text-align: center;
+  color: var(--main-green);
+}
+.line {
+  width: 70%;
+  height: 4px;
+  background-color: white;
+  margin: 15px auto;
+}
+.dir {
+  margin-top: 25px;
+  font-family: "'Times New Roman', Times, serif";
+  font-size: 1.8rem;
+  font-weight: normal;
+  text-align: center;
+  color: var(--main-green);
+}
+.dir2 {
+  width: 70%;
+  color: var(--main-green);
+  margin: 15px auto;
+  text-align: center;
+  font-family: "'Times New Roman', Times, serif";
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+.mapa {
+  padding: 10px;
+  margin: 25px auto;
+  width: 50%;
+  font-size: 1.8rem;
+  background-color: white;
+  color: var(--main-green);
+  border-radius: 30px;
+  text-align: center;
+}

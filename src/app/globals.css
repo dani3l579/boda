@@ -1,6 +1,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --beige-text: #c4a484;
+  --green-soft: #7c9679;
+  --main-green: #5a7456;
+  --green-ligth: #d9e6d5;
+  --second-green: #becfbc;
+  --beige-bck: #fff6ed;
 }
 
 html,

@@ -42,9 +42,7 @@ export default function Home() {
       <p className={styles.info}>
         Estas invitado al momento más especial de nuestra vida.
       </p>
-      {/* <p className={styles.info2}>
-        Escribe el número que recibiste en tu invitación.
-      </p> */}
+
       <CodeForm />
     </main>
   );
