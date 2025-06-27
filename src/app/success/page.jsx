@@ -1,28 +1,19 @@
 "use client";
-import Image from "next/image";
-import Countdown from "../../components/CountDown";
-import styles from "./page.module.css";
-import FechaSection from "@/components/FechaSection";
-import LugarSection from "@/components/LugarSection";
-import VestimentaSection from "@/components/VestimentaSection";
-import SobreSection from "@/components/SobreSection";
+
+import IntroSection from "@/components/IntroSection";
+import Section1 from "@/components/Section1";
+import Section2 from "@/components/Section2";
+import Section3 from "@/components/Section3";
+import Section4 from "@/components/Section4";
 
 export default function SuccessPage() {
   return (
     <main>
-      <h1 className={styles.h1}>Tan solo queda</h1>
-      <Countdown />
-      <Image
-        className={styles.image}
-        src="/assets/flowersWelcome.svg"
-        alt="Los novios felices"
-        width={370}
-        height={300}
-      ></Image>
-      <FechaSection></FechaSection>
-      <LugarSection></LugarSection>
-      <VestimentaSection></VestimentaSection>
-      <SobreSection></SobreSection>
+      <IntroSection></IntroSection>
+      <Section1></Section1>
+      <Section2></Section2>
+      <Section3></Section3>
+      <Section4></Section4>
     </main>
   );
 }

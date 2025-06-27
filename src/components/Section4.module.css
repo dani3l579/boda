@@ -1,0 +1,54 @@
+.cont {
+  padding: 30px 0;
+}
+.sobre {
+  font-size: 1.9rem;
+  color: var(--wine3);
+  text-align: center;
+}
+.image {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.parr {
+  width: 75%;
+  color: var(--text1);
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+}
+.parr2 {
+  width: 75%;
+  color: var(--wine2);
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 7px auto;
+}
+.image2 {
+  margin: 70px auto 20px auto;
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+.esperamos {
+  font-size: 1.7rem;
+  color: var(--text1);
+  font-weight: 200;
+  text-align: center;
+}
+.fotosCont {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.fotos {
+  width: 120px;
+  height: auto;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 5px rgba(128, 128, 128, 0.205);
+}

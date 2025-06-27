@@ -26,17 +26,74 @@ export default function Countdown() {
     return () => clearInterval(timer);
   }, []);
   const countdownStyle = {
-    color: "var(--green-soft)",
-    fontWeight: 500,
-    fontSize: "1.8rem",
-    textAlign: "center",
+    display: "flex",
+    gap: "16px",
+    justifyContent: "center",
+    alignItems: "center",
   };
+
+  const itemStyle = {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+  };
+
+  const circleBaseStyle = {
+    width: "50px",
+    height: "50px",
+    borderRadius: "50%",
+    color: "white",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    fontSize: "18px",
+    fontWeight: "normal",
+    marginBottom: "4px",
+  };
+
+  const daysStyle = {
+    ...circleBaseStyle,
+    backgroundColor: "var(--dark-wine)",
+  };
+
+  const hoursStyle = {
+    ...circleBaseStyle,
+    backgroundColor: "var(--wine2)",
+  };
+
+  const minutesStyle = {
+    ...circleBaseStyle,
+    backgroundColor: "var(--wine3)",
+  };
+
+  const secondsStyle = {
+    ...circleBaseStyle,
+    backgroundColor: "var(--wine4)",
+  };
+  const text = {
+    color: "var(--text1)",
+    fontSize: "1.4rem",
+    fontWeight: "300",
+  };
+
   return (
     <div style={countdownStyle}>
-      <p>
-        {timeLeft.days} días, {timeLeft.hours} horas,
-        <br /> {timeLeft.minutes} minutos, {timeLeft.seconds} segundos
-      </p>
+      <div style={itemStyle}>
+        <div style={daysStyle}>{timeLeft.days}</div>
+        <h4 style={text}>días</h4>
+      </div>
+      <div style={itemStyle}>
+        <div style={hoursStyle}>{timeLeft.hours}</div>
+        <h4 style={text}>horas</h4>
+      </div>
+      <div style={itemStyle}>
+        <div style={minutesStyle}>{timeLeft.minutes}</div>
+        <h4 style={text}>minutos</h4>
+      </div>
+      <div style={itemStyle}>
+        <div style={secondsStyle}>{timeLeft.seconds}</div>
+        <h4 style={text}>segundos</h4>
+      </div>
     </div>
   );
 }

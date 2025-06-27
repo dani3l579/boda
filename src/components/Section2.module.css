@@ -1,0 +1,148 @@
+.cont {
+  width: 100%;
+}
+.flower {
+  display: flex;
+  justify-content: center;
+  width: 230px;
+  height: auto;
+  margin: 40px auto;
+}
+.ubicacion {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--dark-wine);
+  font-weight: normal;
+}
+.dir1 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 15px;
+  color: var(--wine2);
+}
+.dir2 {
+  width: 60%;
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-align: center;
+  color: var(--wine2);
+  margin: 25px auto;
+}
+
+.bullets {
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+  gap: 10px;
+}
+.bullet0 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--wine0);
+}
+.bullet1 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--dark-wine);
+}
+.bullet2 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--wine2);
+}
+.bullet3 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--wine3);
+}
+.bullet4 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--wine4);
+}
+.shoes {
+  display: flex;
+  justify-content: center;
+  width: 130px;
+  height: auto;
+  margin: 0 auto;
+}
+.vestimenta {
+  font-size: 1.5rem;
+  color: var(--text1);
+  text-align: center;
+  font-weight: 300;
+}
+.traje {
+  font-size: 1.8rem;
+  color: var(--dark-wine);
+  font-weight: normal;
+  text-align: center;
+  margin: 15px 0;
+}
+.nousar {
+  width: 155px;
+  height: 45px;
+  background-color: #7f7f7f;
+  border-radius: 7px;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px auto;
+}
+.contColores {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.verde {
+  width: 85px;
+  height: 95px;
+  background-color: #d9e5d7;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #324d3e;
+}
+.colorG {
+  font-size: 1.3rem;
+  color: #324d3e;
+  margin-top: 5px;
+}
+
+.blanco {
+  width: 85px;
+  height: 95px;
+  background-color: #7c9679;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circleW {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+}
+.color {
+  font-size: 1.3rem;
+  color: white;
+  margin-top: 5px;
+}

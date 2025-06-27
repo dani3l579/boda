@@ -1,0 +1,21 @@
+.cont {
+  position: relative;
+}
+.image {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  transform: scaleX(-1);
+}
+.names {
+  position: absolute;
+  top: 22%;
+  left: 7%;
+  z-index: 2;
+}
+.casamos {
+  position: absolute;
+  bottom: 16%;
+  left: 14%;
+  z-index: 2;
+}

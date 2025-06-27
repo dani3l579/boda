@@ -1,0 +1,90 @@
+.cont {
+  background-color: var(--background);
+  padding: 30px 0;
+}
+.player {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: var(--dark-wine);
+  border-radius: 50%;
+}
+.image {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding-left: 30px;
+}
+.parr {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  width: 70%;
+  font-size: 1.5rem;
+  margin: 25px auto;
+  color: var(--text1);
+}
+.date {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.viernes {
+  font-size: 1.6rem;
+  color: var(--dark-wine);
+  font-weight: 300;
+}
+.vertical1 {
+  width: 2px;
+  height: 70px;
+  background-color: var(--dark-wine);
+}
+.vertical2 {
+  width: 2px;
+  height: 70px;
+  background-color: var(--dark-wine);
+}
+.number {
+  font-size: 6.5rem;
+  font-weight: 300;
+  color: var(--dark-wine);
+}
+.septiembre {
+  font-size: 1.6rem;
+  color: var(--dark-wine);
+  font-weight: 300;
+  vertical-align: center;
+}
+.falta {
+  font-size: 1.7rem;
+  color: var(--text1);
+  font-weight: 600;
+  text-align: center;
+  margin: 30px auto;
+}
+.contHora {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 50px 0;
+}
+.inicia {
+  font-size: 1.8rem;
+  color: var(--dark-wine);
+  font-weight: 500;
+}
+.vertical3 {
+  width: 2px;
+  height: 70px;
+  background-color: var(--dark-wine);
+}
+.pm {
+  font-size: 2rem;
+  color: var(--dark-wine);
+}
+.hour {
+  font-size: 5rem;
+  color: var(--dark-wine);
+  font-weight: 600;
+}
