@@ -1,5 +1,3 @@
-"use client";
-
 import IntroSection from "@/components/IntroSection";
 import Section1 from "@/components/Section1";
 import Section2 from "@/components/Section2";
