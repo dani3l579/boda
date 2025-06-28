@@ -5,7 +5,7 @@ export default function IntroSection() {
     <div className={styles.cont}>
       <Image
         className={styles.image}
-        src="/assets/danibibi.jpg"
+        src="/public/assets/danibibi.jpg"
         alt="Los novios felices"
         width={1000}
         height={1000}
