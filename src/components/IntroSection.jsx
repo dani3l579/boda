@@ -3,13 +3,20 @@ import styles from "./IntroSection.module.css";
 export default function IntroSection() {
   return (
     <div className={styles.cont}>
-      <Image
+      {/* <Image
         className={styles.image}
-        src="/public/assets/danibibi.jpg"
+        src="/assets/danibibi.jpg"
         alt="Los novios felices"
         width={1000}
         height={1000}
-      ></Image>
+      ></Image> */}
+      <img
+        className={styles.image}
+        src="/assets/danibibi.jpg"
+        alt="Los novios felices"
+        width="1000"
+        height="1000"
+      />
       <Image
         className={styles.names}
         src="/assets/DanielyBritney.svg"
