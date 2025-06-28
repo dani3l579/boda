@@ -3,13 +3,13 @@ import styles from "./Section2.module.css";
 export default function Section2() {
   return (
     <section className={styles.cont}>
-      <Image
+      <img
         className={styles.flower}
         src="/assets/ramas.png"
         alt="Los novios feices"
         width={320}
         height={320}
-      ></Image>
+      ></img>
 
       <h3 className={styles.ubicacion}>Ubicación</h3>
       <p className={styles.dir1}>
@@ -26,13 +26,13 @@ export default function Section2() {
         <div className={styles.bullet3}></div>
         <div className={styles.bullet4}></div>
       </div>
-      <Image
+      <img
         className={styles.shoes}
         src="/assets/shoes.png"
         alt="Los novios feices"
         width={320}
         height={320}
-      ></Image>
+      ></img>
       <h3 className={styles.vestimenta}>Vestimenta sugerida</h3>
       <h3 className={styles.traje}>Traje y vestido elegante</h3>
       <div className={styles.nousar}>No usar</div>

@@ -6,13 +6,13 @@ export default function Section1() {
   return (
     <div className={styles.cont}>
       <AudioPlayer></AudioPlayer>
-      <Image
+      <img
         className={styles.image}
         src="/assets/Estasinvitado.svg"
         alt="Los novios felices"
         width={350}
         height={350}
-      ></Image>
+      ></img>
       <p className={styles.parr}>
         Nos elegimos para siempre, y queremos festejarlo contigo. ¡Te esperamos
         en nuestra boda!

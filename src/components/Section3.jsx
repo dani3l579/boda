@@ -12,21 +12,21 @@ export default function Section3() {
         <div className={styles.b5}></div>
         <div className={styles.b6}></div>
       </div>
-      <Image
+      <img
         className={styles.flower}
         src="/assets/f1.png"
         alt="Los novios felices"
         width={70}
         height={70}
-      ></Image>
+      ></img>
       <div className={styles.boxL}>
-        <Image
+        <img
           className={styles.img1}
           src="/assets/car.png"
           alt="Los novios felices"
           width={70}
           height={70}
-        ></Image>
+        ></img>
 
         <div>
           <h3 className={styles.hora}>14:30</h3>
@@ -40,22 +40,22 @@ export default function Section3() {
           <h4 className={styles.descrip}>Ceremonia</h4>
         </div>
 
-        <Image
+        <img
           className={styles.img1}
           src="/assets/firma.png"
           alt="Los novios felices"
           width={50}
           height={50}
-        ></Image>
+        ></img>
       </div>
       <div className={styles.boxL}>
-        <Image
+        <img
           className={styles.img1}
           src="/assets/discurso.png"
           alt="Los novios felices"
           width={50}
           height={50}
-        ></Image>
+        ></img>
 
         <div>
           <h3 className={styles.hora}>15:30</h3>
@@ -69,22 +69,22 @@ export default function Section3() {
           <h4 className={styles.descrip}>Fotos</h4>
         </div>
 
-        <Image
+        <img
           className={styles.img1}
           src="/assets/camara.png"
           alt="Los novios felices"
           width={50}
           height={50}
-        ></Image>
+        ></img>
       </div>
       <div className={styles.boxL}>
-        <Image
+        <img
           className={styles.img1}
           src="/assets/cena.png"
           alt="Los novios felices"
           width={50}
           height={50}
-        ></Image>
+        ></img>
 
         <div>
           <h3 className={styles.hora}>17:40</h3>
@@ -97,13 +97,13 @@ export default function Section3() {
           <h4 className={styles.descrip}>A bailar!</h4>
         </div>
 
-        <Image
+        <img
           className={styles.img1}
           src="/assets/baile.png"
           alt="Los novios felices"
           width={50}
           height={50}
-        ></Image>
+        ></img>
       </div>
     </section>
   );
